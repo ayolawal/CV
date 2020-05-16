@@ -1,0 +1,152 @@
+
+body {
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+/* Got the font style from font.google.com */
+h1 {
+  font-size: 5.625rem;
+  font-family: 'Sacramento', cursive;
+  margin: 50px auto 0 auto;
+  color: #66bfbf;
+  /*line-height: 2; */
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999e;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  padding-top: 75px;
+  /*  background-color: #eaf6f6; #e4f9f5;
+  position: relative;#b2ebf2;
+  padding-top: 100px; */
+}
+
+.middle-container {
+  margin: 50px 0;
+}
+
+.sulaiman {
+  width: 15%;
+}
+
+.computer {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+ .chillies {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+a {
+  color: #11999e;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+hr{
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 20px auto;
+  }
+
+}
+/* Used to clear the wrapping around the images
+.computer-text-par1 {
+  clear: left;
+}
+.chillies-text-par1 {
+  clear: right;
+}
+*/
+.pro{
+  text-decoration: underline;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+/* We can use display attribute to place our elements as appropriate
+Same as position with 4 coordinate - left, right, top and bottom
+*/
+.top-cloud{
+  position: absolute;
+  right: 300px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 250px;
+}
+
+.contact-msg {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.bottom-container {
+background-color: #66bfbf;
+padding: 40px 0;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.95rem;
+  padding: 20px 0;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
